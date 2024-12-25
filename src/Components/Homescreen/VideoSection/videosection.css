@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+}
+
+.videosection-cont{
+    margin: 24px 16px 24px ;
+}
+
+.videosection-cont > h2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #393939;
+} 
+
+.videosection-cont > div {
+    background-image: linear-gradient(180deg, #9EFFE1 0%, #E9FFF8 100%);
+    height: 152px;
+    flex-grow: 1;
+    border-radius: 15px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.phone-icon{
+    padding-left:20px ;
+}
+
+
+.play-icon{
+    position:absolute;
+    left: 48%;
+}

@@ -1,0 +1,128 @@
+.recharge-banners{
+    margin: 0px;
+}
+
+.recharge-banners > ul::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and Webkit-based browsers */
+  }
+
+.recharge-banners > ul {
+    list-style-type: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    gap:9px;
+    overflow-x: scroll ;
+
+}
+
+.recharge-banners > ul > .rechargebanners-list1 {
+
+    min-width:223px;
+    height: 130px;
+    border-radius: 15px;
+    background: linear-gradient(149.13deg, #1A9E75 11.49%, #27CD99 92.3%);
+    padding:15px;
+    gap:0px;
+    
+}
+
+.recharge-banners > ul > .rechargebanners-list2{
+    min-width:223px;
+    height: 130px;
+    border-radius: 15px;
+    background: linear-gradient(149.13deg, #1B53E4 11.49%, #268AFF 92.3%);
+    padding:15px;
+    gap:0px;
+}
+
+.rechargebanners-highlitedtext{
+    height:48px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #FBFF29;
+}
+
+.rechargebanners-text-1{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    color:#ffffff;
+}
+
+.rechargebanners-text-2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: left ;
+    color:#ffffff;
+    margin: 0px;
+    margin-top: 4px;
+    align-self: flex-start;
+    
+}
+
+.rechargebanners-list2-text2{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+.rechargebanners-list2-text1{
+    margin: 0px !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    
+
+
+}
+
+.recharge-banners > ul > li > div {
+
+    margin-top: 14px;
+    width:193px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recharge-banners > ul > li > div > button {
+    height:24px;
+    width:92px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: center;
+    color: #393939;
+    border-width: 0px;
+}
+
+.rechargebanners-icon1{
+    
+    width: 74px;
+    height: 16.78px;
+    
+
+}
+
+
+

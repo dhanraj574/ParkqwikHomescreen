@@ -1,0 +1,129 @@
+
+.slider-container{
+    height:136px;
+    width: 100%;
+    font-family: Poppins;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.slider {
+    
+}
+
+.banner-card1 {
+    height:136px;
+    width: 328px;
+    background-color: #48B192;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px ;
+    border-radius: 10px;
+    
+}
+.banner-card{
+    background: linear-gradient(180deg, rgba(26, 158, 117, 0.8) 0%, #1A9E75 39.58%, #A6A765 100%);
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px ;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.banner-card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-card1 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-card button {
+    font-family: Poppins;
+    width:100px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color:  #FFFFFF;
+    color: #48B192;
+    padding:6px;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+
+.banner-card1 button {
+    font-family: Poppins;
+    width:100px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color:  #FFFFFF;
+    color: #48B192;
+    padding:6px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.banner-btn{
+    background-color: #045D5D!important;
+    color:#ffffff !important;
+    width: 85px !important;
+}
+
+
+.bannertext1{
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.bannertext2{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.slider-container img {
+    height:96px;
+    width:112px;
+    
+}
+
+/* Customizing the slick dots */
+.slick-dots li button:before {
+    color:#a6a6a6;  /* Change the default color of the dots */
+    font-size: 9px;  /* Adjust the size of the dots */
+  }
+  
+  /* Optional: Change the color of the active dot */
+  .slick-dots li.slick-active button:before {
+    color: #48B192;  /* Change the color of the active dot */
+  }
+
+  .slick-dots li {
+    margin: 0 0px;  /* Adjust the value to control the space */
+  }
+
+
+
+  .slick-slide > div {
+    margin-right: 16px;  /* Adjust this value to control the gap between slides */
+    margin-left: 16px;
+  }
+  
+ 

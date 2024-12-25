@@ -1,0 +1,150 @@
+
+.dealsforyou-cont{
+    margin: 30px 0px 30px;
+}
+.dealsforyou-cont > ul::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and Webkit-based browsers */
+  }
+
+.dealsforyou-cont > h2 {
+    margin: 0px ;
+    margin-left: 15px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    
+    color: #393939;
+
+}
+
+
+.dealsforyou-cont > ul {
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow-x: scroll;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+      
+}
+
+.dealsforyou-cont > ul > li {
+    min-width:148px;
+    height:136px;
+    
+}
+
+.acko-img{
+    margin-top: -5px;
+    height:61px;
+    
+}
+
+.dealsforyou-li {
+    background: linear-gradient(150.44deg, #44CB86 24.27%, #935CFD 93.86%);
+    border-radius: 15px;
+    min-width:148px;
+    height:136px;
+    
+}
+
+.dealsforyou-card {
+    flex-grow: 1;
+    width:148px;
+    height: 136px;
+}
+
+.dealsforyou-li{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+
+
+.dealsforyou-pricecont{
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px !important;
+}
+
+
+
+
+.dealsforyou-pricetext {
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+    color: #FBFF35;
+    height: 11px;
+
+}
+
+
+
+.dealsforyou-text{
+    margin-top: -15px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.dealsforyou-pricetag{
+    
+    width: 48px;
+    height: 15.36px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    
+
+}
+
+.dealsforyou-btncont {
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+
+
+
+.dealsforyou-btncont > button {
+    height: 13px;
+    padding: 0px;
+    border-width: 0px;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: transparent;
+
+
+}
+
+.dealsforyoubtnarrow{
+    
+    height:15px;
+    
+    
+}

@@ -1,0 +1,31 @@
+
+.home-content{
+    margin-top: 60px; /* Adjust for the navbar height */
+  
+}
+
+.box{
+   
+   padding: 11px 17px 11px;
+   box-shadow: 1px 1px 10px 0px #5959591A ,  0px -1px 10px 0px #C7C7C71A;
+   margin: 16px;
+   border-radius: 15px;
+
+}
+
+.exclusive-offers{
+    margin-bottom: 27px;
+}
+
+.box > h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+
+.carcentercont {
+    margin-top: 27px;
+    margin-bottom: 27px;
+}

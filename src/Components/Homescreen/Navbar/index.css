@@ -1,0 +1,114 @@
+.navbar-cont{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    padding: 12px;
+    background-color:#1A9E75;
+    z-index: 1;
+}
+
+.profile-img{
+    width:40px;
+    height:40px;
+}
+
+.addvehicle-btn{
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+    background-color:  rgba(240, 255, 250, 1);
+    border:0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px #29292926;
+    
+}
+
+
+
+.profileimg-cont > span{
+    position: absolute;
+    left:38px;
+    top:40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height:16px;
+    width:16px;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+.addvehicle-btn > span {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    color: #1A9E75;
+    
+}
+
+.nav-links {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5px;
+
+}
+.wallet-amt{
+    position: absolute;
+    right:90px;
+    top:15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:14px;
+    width:26px;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 500;
+    background-color: #FFCA28;
+    color: #393939;
+    border-radius: 7.5px;
+    
+    
+}
+
+.wallet,.bell,.share{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 30%);
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+}
+
+.wallet > img {
+    height:17px;
+    width:17px;
+}
+.share > img {
+    margin-top: 3px;
+    height:17px;
+    width:17px;
+}
+
+.bell-round{
+     position: absolute;
+     top:25px;
+     right:53px;
+}
+
+
+
+
+

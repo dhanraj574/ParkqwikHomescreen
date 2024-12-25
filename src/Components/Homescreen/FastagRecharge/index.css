@@ -1,0 +1,167 @@
+.fastagrecharge-section{
+    padding:15px;
+    font-family: Poppins;
+    margin-bottom: 10px;
+}
+
+.break-line{
+    border-top: 2px solid #F5F4F4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fastagrecharge-section > div {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px 0px #5959591A, 0px -1px 10px 0px #C7C7C71A;
+    padding:15px;
+    border-radius: 15px;
+}
+
+.fastagrecharge-section h1{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #393939;
+}
+
+.fastagrecharge-section p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #A0A0A0;
+    
+
+}
+
+.fastagrecharge-input{
+    display: flex;
+    gap:10px;
+}
+
+.fastagrecharge-input input {
+    outline: none;
+    height:40px;
+    flex-grow: 1;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #1A9E75;
+    border: 2px solid #1A9E75;
+    border-radius: 8px;
+    background-color:  #F0FFFA;
+    padding: 5px;
+}
+
+.fastagrecharge-input input::placeholder {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #1A9E75;
+}
+
+.fastagrecharge-input button {
+    
+    background-color: #1A9E75;
+    color: #F0FFFA;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    height: 40px;
+    padding: 9px 10px 9px 10px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.payment-partner{
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.payment-partner > span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #434343;
+}
+
+.payment-logo1 {
+    height:50px;
+
+}
+.payment-logo2{
+    height:30px;
+}
+
+.myfastag-cont{
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.myfastag-cont > h2 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #393939;
+
+}
+
+.myfastag-cont > ul {
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.myfastag-cont > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    height: auto;
+}
+
+.myfastag-cont > ul > li > img {
+    height:46px;
+    width:46px;
+}
+
+.myfastag-cont > ul > li > span {
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color:#434343;
+}
+
+.fastag-features{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.fastag-features h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #393939;
+}
+
+
+
+

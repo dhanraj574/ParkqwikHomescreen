@@ -1,0 +1,116 @@
+.trendingsection-cont{
+    padding:0px 16px 0px ;
+    margin-bottom: 27px;
+}
+
+.trendingsection-cont > h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #393939;
+    margin: 0px;
+
+}
+
+.trendingsection-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 25px 17px;
+    flex-grow: 1;
+    height: 193px;
+    border-radius: 9px;
+    background-image: linear-gradient(170.33deg, rgba(8, 208, 146, 0.7) 7.28%, rgba(6, 89, 61, 0.7) 109.9%),
+                url(https://res.cloudinary.com/dlb0k0ebr/image/upload/v1729778376/parkqwik_trending_section_image_ejowai.jpg);
+
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    
+}
+
+.trendingsectioncard-1{
+    align-self: flex-start;
+}
+    
+
+.trendingsectioncard-text1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    line-height: 14px;
+    text-align: left;
+    color: #EBFF00;
+    margin-bottom: 9px;
+}
+
+.trendingsectioncard-text2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: left;
+    color:#ffffff;
+    margin-bottom: 9px;
+
+}
+
+.trendingsectioncard-text3{
+    height: 28px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color:#FFFFFF;
+    margin-bottom: 0px;
+    
+}
+
+.trendingsectioncard-2{
+    margin-top:32px;
+    display: flex;
+    gap:2px;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.trendingsectioncard-2 > img{
+    width: 47.27px;
+    height: 26px;
+
+}
+
+.trendingsectioncard-2 > p > span {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    color:#ffffff;
+    
+    
+}
+
+.trendingsectioncard-2 > p {
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color:#ffffff;
+    margin-bottom: 0px;
+
+}
+
+.trendingsection-card > img {
+    width: 94px;
+    height: 5px;
+    margin: 0px;
+    align-self: center;
+    
+}
+
+

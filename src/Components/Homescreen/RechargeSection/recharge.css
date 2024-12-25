@@ -1,0 +1,126 @@
+.recharge-section{
+    margin-bottom: 210px;
+    width:100vw;
+    height:130px;
+    padding: 0px 16px 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.recharge-card{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 0px;
+    padding:11px 17px 11px;
+    box-shadow: 1px 1px 10px 0px #5959591A, 0px -1px 10px 0px #C7C7C71A;
+
+}
+
+.rechargebill-headcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.rechargecard-bharathbill{
+   margin-top:-5px ;
+    display: inline-flex;
+    flex-direction: column;
+    gap:0px;
+
+}
+
+.rechargecard-bharathbill > img {
+    height:28px;
+    width : 28px;
+}
+
+.rechargecard-paybillicon{
+    margin-top: -10px;
+}
+
+
+
+
+.rechargebill-headcont > h1 {
+    width: 209px;
+    height: 17px;
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color:#393939;
+    
+}
+
+
+.recharge-card > ul {
+    margin-top: 0px;
+    display: flex;
+    justify-content:space-evenly ;
+    gap:10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+.recharge-card li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 10px);
+    flex-grow: 1;
+    height:100px;
+
+}
+
+.rechargesection-iconcont{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:41px;
+    width :51px;
+    border-radius: 9px;
+    background-color: #F0FFFA;
+    box-shadow: 1px 1px 5px 0px #6868681A;
+
+
+}
+
+.recharge-card p {
+    width:50px;
+    margin: 5px;
+    
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #434343;
+    text-align: center;
+}
+
+.rechargesection-btn{
+    margin: 0px;
+    width: 68px;
+    height: 25px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #1A9E75;
+    color:#1A9E75;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    background-color: ffffff;
+    align-self:center;
+}
